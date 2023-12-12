@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 24px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  width: 80%;
+}
+
+.notificationContainer {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 12px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin: 14px;
+}
+
+.text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.primaryIcon {
+  background-color: #0b69ff;
+}
+
+.successIcon {
+  background-color: #2dca73;
+}
+
+.warningIcon {
+  background-color: #ffb800;
+}
+
+.dangerIcon {
+  background-color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin: 24px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}
